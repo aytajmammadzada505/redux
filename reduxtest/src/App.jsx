@@ -110,7 +110,7 @@ export default function App() {
 //task 5
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { add, toggle, deleteTodo } from './task 5/todo';
+import { add, toggle, deleteTodo } from './task 5/todoSlice';
 
 export default function App() {
   const [text, setText] = useState('');
