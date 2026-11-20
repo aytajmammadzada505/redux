@@ -40,7 +40,7 @@ export const store = configureStore({
 
 //task 5
 import { configureStore } from '@reduxjs/toolkit';
-import todosReducer from '../task 5/todo';
+import todosReducer from '../task 5/todoSlice';
 
 export const store = configureStore({
     reducer: {
